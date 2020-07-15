@@ -3,9 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Pacifico&display=swap');
 body{
+position: relative;
+top:30px;
 width: 901px;
 margin:auto;}
 header{
+  
     height: 70px;
     border-bottom: 10px ;
     width: 100%;
@@ -22,7 +25,7 @@ header div img{
     font-style: oblique;
 } 
 main{
-    height: 1750px;
+    height: 1647px;
 }
 h4{
     font-family: 'Open Sans Condensed', sans-serif;
@@ -64,7 +67,7 @@ main article h2 {
     height: 71px;
 }
 
-.list{
+.list {
     position: absolute;
     top: 0px;
     font-size: 20px;
@@ -76,19 +79,27 @@ main article h2 {
     height: 301px;
 }
 .left-list{
+   
     float:left;
     text-align: left;
     padding-right:150px;
     padding-left: 60px;
-    list-style: square;
+    list-style: none;
     
 }
+.left-list span{
+    padding-left: 5px;
+}
+.right-list span{
+    padding-left: 5px;
+}
 .right-list{
+    top:10px;
     float: right;
     text-align: left;
-    list-style: square;
+    list-style: none;
+    
 }
-
 
 
 .left-list1{
@@ -97,12 +108,20 @@ main article h2 {
     margin-bottom: 20px;
 }
 .right-list1{
-    margin-top: 40px;
+    margin-top: 57px;
     float: right;
-    text-align: right;
+    /* text-align: right; */
     margin-bottom: 20px;
     
 }
+.right-list1 img{
+    float: right;
+    padding-left:5px ;
+}
+.right-list1 h6{
+    float: right;
+}
+
 .left-list1 h2{
 margin-bottom: 0px;
 margin-top: 30px;
@@ -114,7 +133,7 @@ margin-top: 30px;
 .right-list1 h6{
     margin: 0px;
     color: gray;
-    font-size: 7px;
+    font-size: 10px;
 }
 
 
@@ -146,19 +165,25 @@ left:80px;
     right: 0px;
     top: 60px;
     background-color:rgb(172, 8, 8);
-    height: 30px;
-    width: 150px;
     color: seashell;
     border: none;
+    padding:10px 10px 10px 10px;
 }
 
 footer {
+    position: relative;
     text-align: center;
     font-size: 10px;
     color: gray;
 }
 footer img{
-    padding-bottom: 10px;
+    position: absolute;
+    top: -16px;
+
 }
 
-
+footer div{
+    position: absolute;
+    top: 34px;
+    right: 347px;
+}
